@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.ConferenceRoomController",
+    "Method": "AddRoom",
+    "RelativePath": "api/ConferenceRoom/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "room",
+        "Type": "WebAPI.Models.ConferenceRoom",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ConferenceRoomController",
+    "Method": "BookRoom",
+    "RelativePath": "api/ConferenceRoom/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "WebAPI.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ConferenceRoomController",
+    "Method": "DeleteRoom",
+    "RelativePath": "api/ConferenceRoom/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ConferenceRoomController",
+    "Method": "EditRoom",
+    "RelativePath": "api/ConferenceRoom/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedRoom",
+        "Type": "WebAPI.Models.ConferenceRoom",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
